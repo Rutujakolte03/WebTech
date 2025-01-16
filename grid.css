@@ -1,0 +1,41 @@
+#grid_container{ 
+    background-color: yellowgreen; 
+    /* grid-container props */ 
+    display: grid; 
+    /* grid-template-columns-it represent no. of columns  and width of each column*/ 
+    /* grid-template-columns: 300px 300px 400px; */ 
+    /* grid-template-columns: auto auto auto auto ; */ 
+    grid-template-columns: repeat(3,auto); 
+ 
+    /* grid-template-rows - represents height of each row */ 
+    /* grid-template-rows: 200px 300px 100px; */ 
+    height: 1000px; 
+    grid-template-rows: repeat(3,auto); 
+ 
+    /* row-gap: 2px; 
+    column-gap: 2px; */ 
+    gap: 2px; 
+} 
+ 
+#grid_container .grid_items{ 
+    background-color: rgb(89, 23, 89); 
+    color: white; 
+} 
+ 
+#grid_container .grid_item1{ 
+    /* grid-column-start: 1; 
+    grid-column-end: 3; */ 
+    grid-column: 1/3; 
+ 
+    /* grid-row-start: 1; 
+    grid-row-end: 3; */ 
+    grid-row: 1/3; 
+} 
+ 
+#grid_container .grid_item2{ 
+    grid-row: 1/3; 
+} 
+ 
+#grid_container .grid_item4{ 
+    grid-column: 2/4; 
+}

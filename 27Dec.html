@@ -1,0 +1,110 @@
+<html lang="en">
+    <h1>Nested List</h1>
+    <hr>
+    <ul style="color:blue;"></ul>
+    <li>USA
+        <ol style ="color: red;">
+            <li>Tiger</li>
+            <li>Lion</li>
+            <li>Max</li>
+            <li>Cat</li>
+        </ol>
+
+    </li>
+    <li>Austrelia
+        <ol style="color: yellowgreen;">
+            <li>Tortoise</li>
+            <li>Horse</li>
+            <li>Cat</li>
+            <li>Dog</li>
+        </ol>
+    </li>
+    <body>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdAtv04UT9QCuUwP8mXDB5ghw561SZiddhmw&s" alt="Love">
+       
+       <!--Absolute Path-->
+        <a href  ="https://www.zomato.com" target= "_blank">zomato</a>
+
+        <!--Relative Path-->
+        <a href ="list.html" alt="zomato"></a>
+
+<!-- action to be performed when you submit the form   -->
+ <!-- type: type of data  -->
+<!--    for = label, id = input: to link text field with label    -->
+
+        <form action="">
+            <label for="">USERNAME :</label>
+            <input type="text" id="uname" name="User"><br><br>
+
+            <label for="">PASSWORD :</label>
+            <input type="password" id="pass" name="Password"><br><br>
+
+            <label for="">EMAIL ID: </label>
+            <input type="email" id="mail" name="mailid"><br><br>
+
+            <label for="">CONTACT NO: </label>
+            <input type="tel" id="phone"  name="contact"><br><br>
+
+            <label for=""> AGE: </label>
+            <input type="number" id="age" name="age"><br><br>
+
+            <label for="">DATE: </label>
+            <input type="date" id= "date"  name="date"><br><br>
+
+            <label for="">ADDRESS: </label>
+            <input type="address" id="address" name="add" ></textarea> <br><br>
+
+            <label for="gen">GENDER: </label>
+            <input type="radio" name="Gender" id= "gen" value="MALE">MALE
+            <input type="radio" name="Gender" id= "gen" value="FEMALE">FEMALE
+            <input type="radio" name="Gender" id= "gen" value="OTHER">OTHERS<br><br>
+
+
+            <label for="lang">LANGUAGES: </label>
+            <input type="checkbox" name="LANGUAGES" id="lang" value="ENGLISH">ENGLISH
+            <input type="checkbox" name="LANGUAGES" id="lang" value="HINDI">HINDI
+            <input type="checkbox" name="LANGUAGES" id="lang" value="MARATHI">MARATHI
+            <input type="checkbox" name="LANGUAGES" id="lang" value="TAMIL">TAMIL
+            <input type="checkbox" name="LANGUAGES" id="lang" value="BENGALI">BENGALI<br><br>
+
+
+            <label for="state">STATE: </label>
+            <select name="state" id="state">
+                <option value="MAHARASHTRA">MAHARASHTRA</option>
+                <option value="GOA">GOA</option>
+                <option value="GUJRAT">GUJRAT</option>
+                <option value="HYDERABAD">HYDERABAD</option>
+            </select>
+            <br><br>
+
+
+            <label for="city">CITY: </label>
+            <select name="city" id="city">
+                <optgroup label="KAR"></optgroup>
+                <optgroup label="BNG"></optgroup>
+                <optgroup label="MYSORE"></optgroup>
+                <optgroup label="TUMKUR"></optgroup>
+            </select>
+            <br><br>
+
+
+            
+            <label for="qu">QUALIFICATION: </label>
+            <input type="text" name="QUALIFICATION" id="qu" list="degree">
+            <datalist id="degree">
+                <option value="BCA">BCA</option>
+                <option value="BCA">BE</option>
+                <option value="BCA">BTECH</option>
+                <option value="BCA">BSC</option>
+            </datalist><br><br>
+
+            <label for="resume">UPLOAD RESUME: </label>
+            <input type="file" name="resume"><br><br>
+
+            <button type="submit">Submit</button>
+            <button type="Reset">Reset</button>
+        </form>
+
+
+    </body>
+</html>

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+body{
+    color: white;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/013/089/133/small_2x/abstract-soft-focus-sunset-field-landscape-of-white-flowers-and-grass-meadow-warm-golden-hour-sunset-sunrise-time-tranquil-spring-summer-nature-closeup-and-blurred-forest-background-idyllic-nature-photo.jpg');
+   /* background-image: linear-gradient(to right, pink, yellow, white, green); */
+   /* background-image: radial-gradient(orange, yellow, blue);   */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#demo{
+    color: greenyellow;
+    /*color: rgb(56, 127, 226);   */
+    /*color: rgba(0,0,0,0.5);  */
+    text-align: center;
+    /*center, left, right, justify*/
+    
+
+    text-transform: capitalize;
+    /*uppercase, lowercase,capitalize*/
+
+    text-shadow: 2px 3px red;
+    /*          x-axis ,y-axis blurness color     */
+
+
+    text-decoration-line: underline;
+    /*line-through, overline, underline*/
+    text-decoration-style: wavy;
+    /*solid, dotted, dashed, double, wavy*/
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+
+    /*shortend prop*/
+    text-decoration: 1px underline double blue;
+
+}
+p{
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 2;
+    text-indent: 300px;
+
+    /*font props*/
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: sans-serif;
+}

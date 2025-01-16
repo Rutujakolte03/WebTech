@@ -1,0 +1,36 @@
+.ball{
+    height: 200px;
+    width: 100px;
+    border: 2px solid red;
+    border: radius 50%;
+}
+
+.ball1{
+    background-image: linear-gradient(to right bottom, blue, green, yellow);
+}
+
+.ball2{
+    background-image: radial-gradient(pink, yellow, green);
+}
+
+.ball3{
+    background-image: conic-gradient(blue, green, yellow, orange);
+}
+
+
+h1{
+    color: orangered;
+    text-transform: uppercase;
+    border: 2px double red;
+    border-top: 2px solid blue;
+    border-left: 3px double darkgreen;
+    border-bottom: 2px dotted orangered;
+    border-right: 1px dashed darkmagenta;
+    border: 2px solid red 3px double darkblue 2pc dashed yellow 5px solid;
+
+    padding: 20px 40px 30px 10px;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-right: 40px;
+}

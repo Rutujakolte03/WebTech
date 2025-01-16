@@ -1,0 +1,22 @@
+
+        a[target] {
+            color: palevioletred;
+        }
+
+        a[target='_blank']:hover {
+            color: yellow;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        img {
+            width: 50px; /* Adjust the width */
+            height: auto; /* Maintain aspect ratio */
+        }
