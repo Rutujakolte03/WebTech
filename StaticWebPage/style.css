@@ -1,0 +1,90 @@
+/* Reset default styles */
+body, h1, h2, p, div {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Social Media Bar */
+.social-bar {
+    background: black;
+    padding: 10px;
+    text-align: left;
+    padding-right: 30px;
+}
+
+.social-bar a img {
+    width: 24px;
+    margin: 0 10px;
+}
+
+/* Header */
+header {
+    background: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.highlight {
+    background: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    background: url('rutujaimage.jpeg') no-repeat center center/cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    color: white;
+    padding-left: 0px;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-content {
+    position: relative;
+    max-width: 600px;
+}
+
+.hero-content h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.subscribe-btn {
+    background: white;
+    color: black;
+    padding: 12px 25px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    text-transform: uppercase;
+}

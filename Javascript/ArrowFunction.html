@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function Example</title>
+</head>
+<body>
+
+    <h1>Arrow Function Example</h1>
+    <p id="hello"></p>
+    <p id="sum"></p>
+
+    <script>
+        
+        const sayHello = () => "Hello, World!";
+
+        // Explicit return 
+        const addNumbers = (a, b) => {
+            return a + b;
+        };
+
+       
+        document.getElementById("hello").innerText = sayHello();
+        document.getElementById("sum").innerText = "Sum: " + addNumbers(5, 3);
+    </script>
+
+</body>
+</html>

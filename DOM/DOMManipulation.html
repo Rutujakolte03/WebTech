@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>DOM MANIPULATION</title> 
+    <style> 
+        #idcard{ 
+            height: 350px; 
+            width: 300px; 
+            margin: auto; 
+            border-radius: 10px; 
+            text-align: center; 
+            background-image: linear-gradient(to right bottom,red,orange,black); 
+        } 
+        #idcard img{ 
+            height: 150px; 
+            width: 200px; 
+            margin-top: 20px; 
+            border-radius: 10px; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <button>Generate</button> 
+ 
+ 
+ 
+ 
+    <script> 
+        let btn = document.querySelector('button') 
+ 
+        btn.addEventListener('click',()=>{ 
+            alert('btn has been clicked') 
+        }) 
+ 
+        // btn.addEventListener('click', function generateCard(){ 
+        //     let card = document.createElement('section') 
+        //     card.setAttribute('id','idcard') 
+ 
+        //     let profilepic = document.createElement('img'); 
+        //     profilepic.src = 'https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ=' 
+ 
+        //     let empname = document.createElement('h2') 
+        //     empname.innerText = 'Employee : Siri' 
+ 
+        //     let eid = document.createElement('h2') 
+        //     eid.innerText = 'Empid : ABC4356' 
+ 
+        //     let bgrp = document.createElement('h2') 
+        //     bgrp.innerHTML = 'Blood Group : O<sup>+</sup>' 
+ 
+        //     card.append(profilepic,eid,empname,bgrp) 
+ 
+        //     document.body.appendChild(card) 
+        //     btn.remove() 
+        // }) 
+ 
+        
+    </script> 
+</body> 
+</html>
